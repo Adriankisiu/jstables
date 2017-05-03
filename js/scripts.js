@@ -1,8 +1,6 @@
-// plik scripts.js
-
-var tablica = ['Basia', 'Beata', 'Balbina'];
-var tablica1 = ['Heniek', 'Genek', 'Piotrek'];
-var connect = tablica.concat(tablica1);
+var tables = ['Basia', 'Beata', 'Balbina'];
+var tables1 = ['Heniek', 'Genek', 'Piotrek'];
+var connect = tables.concat(tables1);
 
 var newName = 'Tomek';
 	if (connect.indexOf(newName) === -1) {
